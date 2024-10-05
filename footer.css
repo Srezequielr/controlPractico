@@ -1,0 +1,36 @@
+.footer-container {
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #F7AF63;
+    color: #333;
+}
+
+.nav-link {
+    transition: all 0.2s ease-out;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    font-size: 30px;
+    margin-right: 20px;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-icon:hover {
+    color: black;
+}
+
+.no-hover {
+    transition: none;
+}
+
+
