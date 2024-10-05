@@ -1,0 +1,31 @@
+/* Formulario */
+body {
+    background-color: #DDD9AB;
+    color: #333;
+}
+
+.form-container {
+    background-color: #f7AF63;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-submit {
+    background-color: #633D2E;
+    color: white;
+    width: 160px;
+    display: block;
+    margin: 20px auto 0px auto;
+}
+
+.btn-submit:hover{
+    color: white;
+    background-color: #452b20;
+    
+}

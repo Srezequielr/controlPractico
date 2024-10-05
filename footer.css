@@ -1,3 +1,4 @@
+/* Footer */
 .footer-container {
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
     background-color: #F7AF63;
@@ -21,7 +22,7 @@
 
 .footer-icon {
     font-size: 30px;
-    margin-right: 20px;
+    margin-right: 60px;
     transition: color 0.2s ease-in-out;
 }
 
@@ -31,6 +32,20 @@
 
 .no-hover {
     transition: none;
+}
+
+.nav-item {
+    padding-left: 150px;
+}
+
+@media (max-width: 1024px){
+    .nav-item{
+        padding-left: 0px;
+    }
+    .footer-icon{
+        margin-right: 20px;
+    }
+    
 }
 
 
