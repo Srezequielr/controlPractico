@@ -83,33 +83,26 @@ body {
 /* --------------------------- */
 
 /* --------- Formacion --------- */
-
-/* .carousel-item {
+.carrusel{
+  margin-top: 150px;
+}
+.carousel-item {
   text-align: center;
 }
-h2 {
+.subtitulos {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
-p {
+.parrafos {
   font-size: 1.2rem;
 }
-img {
-  max-width: 200px;
-  height: auto;
-  margin: auto;
+.imgs {
+  max-width: 10%
 }
-h1 {
+.titulo {
   text-align: center;
   margin-top: 20px;
 }
-.carousel-indicators {
-  margin-bottom: 20px;
-}
-img {
-  max-width: 15%;
-} */
-
 /* --------------------------- */
 
 /* --------- Formulario --------- */
