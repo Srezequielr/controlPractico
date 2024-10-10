@@ -83,26 +83,82 @@ body {
 /* --------------------------- */
 
 /* --------- Formacion --------- */
-.carrusel{
+
+.carrusel {
   margin-top: 150px;
+  position: relative;
 }
+
 .carousel-item {
   text-align: center;
 }
+
 .subtitulos {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
+
 .parrafos {
   font-size: 1.2rem;
 }
-.imgs {
-  max-width: 10%
-}
+
 .titulo {
   text-align: center;
   margin-top: 20px;
 }
+
+.botones-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  border: none;
+  border-radius: 100%; 
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #fa9a34;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.img-escudo{
+  max-width: 14%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.img-sto{
+  max-width: 20%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.img-hou{
+  max-width: 20%;
+  margin: 0 auto;
+  margin-bottom: 144px;
+}
+.img-tec{
+  max-width: 20%;
+  margin: 0 auto;
+  margin-bottom: 67px;
+}
+.img-coder{
+  max-width: 20%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.img-rep{
+  max-width: 20%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
 /* --------------------------- */
 
 /* --------- Formulario --------- */
