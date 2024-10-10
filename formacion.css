@@ -1,0 +1,28 @@
+*{
+    background-color: #DDD9AB;
+}
+.carousel-item {
+    text-align: center;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+p {
+    font-size: 1.2rem;
+}
+img{
+        max-width: 200px;
+        height: auto;
+        margin: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.carousel-indicators {
+    margin-bottom: 20px;
+}
+img{
+    max-width: 15%;
+}

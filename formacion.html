@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formacion y experiencia</title>
+    <title>Carrusel de Formación Académica</title>
+    <link rel="stylesheet" href="formacion.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+<div class="carousel-inner">
+    <h1>Formación Académica</h1>
+    <!-- primero -->
+    <div class="carousel-item active">
+    <div class="d-block w-100 text-center">
+        <h2>2004 - 2011</h2>
+        <p>Educación Primaria: Colegio Santo Tomás de Aquino</p>
+        <img src="/logo_sta-removebg-preview.png" class="d-block w-100" alt="Colegio Santo Tomás de Aquino">
+    </div>
+    </div>
+    <!-- segundo -->
+    <div class="carousel-item">
+    <div class="d-block w-100 text-center">
+        <h2>2011 - 2012</h2>
+        <p>Educación Primaria: Colegio Teniente Pedro Nolasco Fonseca</p>
+        <img src="/escudo nacional argentino.png" class="d-block w-100" alt="Colegio Teniente Pedro Nolasco Fonseca">
+    </div>
+    </div>
+    <!-- tercero -->
+    <div class="carousel-item">
+    <div class="d-block w-100 text-center">
+        <h2>2012 - 2019</h2>
+        <p>Educación Secundaria: Colegio DRA A. Houssay</p>
+        <img src="/houssay-removebg-preview.png" class="d-block w-100" alt="Colegio DRA A. Houssay">
+    </div>
+    </div>
+    <!-- cuarto -->
+    <div class="carousel-item">
+    <div class="d-block w-100 text-center">
+        <h2>2022</h2>
+        <p>Curso de Fundamentos de JavaScript (San Juan TEC)</p>
+        <img src="/san_juan_tec-removebg-preview.png" class="d-block w-100" alt="Curso de Fundamentos de JavaScript">
+    </div>
+    </div>
+    <!-- quinto -->
+    <div class="carousel-item">
+    <div class="d-block w-100 text-center">
+        <h2>2022</h2>
+        <p>Curso de Desarrollo Web (HTML y CSS) (Coderhouse)</p>
+        <img src="/coderhouse.jpg" class="d-block w-100" alt="Curso de Desarrollo Web">
+    </div>
+    </div>
+    <!-- sexto -->
+    <div class="carousel-item">
+    <div class="d-block w-100 text-center">
+        <h2>2023</h2>
+        <p>Curso de Reparación de Computadoras (Comunidad Reparando)</p>
+        <img src="/comunidad_reparando-removebg-preview.png" class="d-block w-100" alt="Curso de Reparación de Computadoras">
+    </div>
+    </div>
+
+</div>
+
+<!-- anterior y siguiente -->
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
+
