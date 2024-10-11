@@ -198,14 +198,8 @@ body {
   color: #333;
 }
 
-.inline {
-  display: flex;
-  justify-content: space-between;
-}
-
 .footer-icon {
   font-size: 30px;
-  margin-right: 60px;
   transition: color 0.2s ease-in-out;
 }
 
@@ -217,8 +211,6 @@ body {
   transition: none;
 }
 
-.nav-item {
-  padding-left: 150px;
-}
+
 
 /* --------------------------- */
