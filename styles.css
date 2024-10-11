@@ -84,6 +84,52 @@ body {
 
 /* --------------------------- */
 
+/* Blog */
+
+.blog-post {
+  background-color: #f7af63; /* Color beige como en la imagen */
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
+}
+.blog-post img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+}
+.blog-post h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.blog-post p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.blog-footer {
+  text-align: center;
+  margin-top: 15px;
+  color: gray;
+}
+
+.elbuton {
+  background-color: #633d2e;
+  color: white;
+  width: 200px;
+  display: block;
+  margin: 20px auto 0px auto;
+  border: none;
+}
+
+.elbuton:hover {
+  color: white;
+  background-color: #452b20;
+}
+
+/* ------ */
+
 /* --------- Formacion --------- */
 
 .carrusel {
@@ -107,6 +153,7 @@ body {
 .titulo {
   text-align: center;
   margin-top: 20px;
+  font-family: "Playfair Display", serif;
 }
 
 .botones-container {
@@ -171,6 +218,7 @@ body {
   border-radius: 15px;
   max-width: 600px;
   margin: auto;
+  font-family: "Playfair Display", serif;
 }
 
 .form-control:focus {
@@ -198,6 +246,7 @@ body {
   box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
   background-color: #f7af63;
   color: #333;
+  font-family: "Playfair Display", serif;
 }
 
 .footer-icon {
