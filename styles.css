@@ -32,11 +32,8 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .nav-item {
+  .navite {
     padding-left: 0px;
-  }
-  .footer-icon {
-    margin-right: 20px;
   }
 }
 
