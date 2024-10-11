@@ -31,7 +31,7 @@ body {
   padding: 0 50px;
 }
 
-.navite{
+.navite {
   font-size: 30px;
 }
 
@@ -84,7 +84,7 @@ body {
 
 /* --------------------------- */
 
-/* Blog */
+/* --------- Blog --------- */
 
 .blog-post {
   background-color: #f7af63;
@@ -128,7 +128,7 @@ body {
   background-color: #452b20;
 }
 
-/* ------ */
+/* --------------------------------- */
 
 /* --------- Formacion --------- */
 
@@ -165,48 +165,53 @@ body {
 .carousel-control-prev,
 .carousel-control-next {
   border: none;
-  border-radius: 100%; 
+  border-radius: 100%;
   width: 60px;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:  #fa9a34;
+  background-color: #fa9a34;
   margin-top: 10%;
   margin-left: 30%;
   margin-right: 30%;
 }
-.img-escudo{
-  max-width: 14%;
+.img-escudo {
+  /* width: 500px; */
+  height: 400px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
-.img-sto{
-  max-width: 20%;
+.img-sto {
+  /* width: 500px; */
+  height: 400px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
-.img-hou{
-  max-width: 20%;
+.img-hou {
+  /* width: 500px; */
+  height: 400px;
   margin: 0 auto;
-  margin-bottom: 144px;
+  /* margin-bottom: 144px; */
 }
-.img-tec{
-  max-width: 20%;
+.img-tec {
+  /* width: 500px; */
+  height: 400px;
   margin: 0 auto;
-  margin-bottom: 67px;
+  /* margin-bottom: 67px; */
 }
-.img-coder{
-  max-width: 20%;
+.img-coder {
+  /* width: 500px; */
+  height: 400px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
-.img-rep{
-  max-width: 20%;
+.img-rep {
+  /* width: 500px; */
+  height: 400px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
-
 
 /* --------------------------- */
 
@@ -261,7 +266,5 @@ body {
 .no-hover {
   transition: none;
 }
-
-
 
 /* --------------------------- */
