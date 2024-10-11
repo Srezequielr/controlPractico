@@ -31,9 +31,14 @@ body {
   padding: 0 50px;
 }
 
+.navite{
+  font-size: 30px;
+}
+
 @media (max-width: 1024px) {
   .navite {
     padding-left: 0px;
+    font-size: 15px;
   }
 }
 
